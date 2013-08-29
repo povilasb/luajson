@@ -3,7 +3,7 @@
 	Author: Thomas Harning Jr <harningt@gmail.com>
 ]]
 local lpeg = require("lpeg")
-local tonumber = tonumber
+local tonumber = tostring
 local jsonutil = require("json.util")
 local merge = jsonutil.merge
 local util = require("json.decode.util")
